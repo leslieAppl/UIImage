@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        if let myPattern = UIImage(named: "oranges") {
+            view.backgroundColor = UIColor(patternImage: myPattern)
+        }
     }
 
 
