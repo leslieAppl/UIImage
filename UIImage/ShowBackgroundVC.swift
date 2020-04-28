@@ -10,15 +10,27 @@ import UIKit
 
 class ShowBackgroundVC: UIViewController {
 
+    let husky = UIImage(named: "husky")
+    let door = UIImage(named: "door")
+    
+    @IBOutlet weak var myImgView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         if let myPattern = UIImage(named: "oranges") {
             view.backgroundColor = UIColor(patternImage: myPattern)
         }
+        
+        myImgView.animationImages = [husky!, door!]
+        myImgView.animationDuration = 4
     }
     
-
+    @IBAction func changePicture(_ sender: UIButton) {
+//Animating images inside an Image View
+        myImgView.startAnimating()
+    }
+    
     /*
     // MARK: - Navigation
 

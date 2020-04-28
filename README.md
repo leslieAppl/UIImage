@@ -13,3 +13,5 @@
 ## UIImageView: Content Mode
 
 ## Added changeImage() method
+
+## Added Animating Image View

@@ -121,6 +121,9 @@
                                 <rect key="frame" x="57" y="762" width="300" height="51"/>
                                 <state key="normal" image="buttonnormal.png"/>
                                 <state key="highlighted" image="buttondown.png"/>
+                                <connections>
+                                    <action selector="changePicture:" destination="uuP-H8-WrH" eventType="touchUpInside" id="A5Y-ta-das"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="husky.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kyh-fR-wvA">
                                 <rect key="frame" x="0.0" y="44" width="414" height="718"/>
@@ -138,6 +141,9 @@
                         <viewLayoutGuide key="safeArea" id="jdP-vZ-PUB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="AFIT" id="4ha-Ma-7b1"/>
+                    <connections>
+                        <outlet property="myImgView" destination="Kyh-fR-wvA" id="SR0-XW-kqK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vum-vd-mvm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
