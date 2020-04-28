@@ -23,6 +23,9 @@
 		CE0974CE24580EEB000F0504 /* door@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974CB24580EEB000F0504 /* door@3x.png */; };
 		CE0974CF24580EEB000F0504 /* door@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974CC24580EEB000F0504 /* door@2x.png */; };
 		CE0974D024580EEB000F0504 /* door.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974CD24580EEB000F0504 /* door.png */; };
+		CE0974D4245818D3000F0504 /* sign.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974D1245818D2000F0504 /* sign.png */; };
+		CE0974D5245818D3000F0504 /* sign@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974D2245818D3000F0504 /* sign@2x.png */; };
+		CE0974D6245818D3000F0504 /* sign@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974D3245818D3000F0504 /* sign@3x.png */; };
 		CE1AFF062457241500784C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFF052457241500784C3C /* AppDelegate.swift */; };
 		CE1AFF082457241500784C3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFF072457241500784C3C /* SceneDelegate.swift */; };
 		CE1AFF0A2457241500784C3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFF092457241500784C3C /* ViewController.swift */; };
@@ -54,6 +57,9 @@
 		CE0974CB24580EEB000F0504 /* door@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "door@3x.png"; sourceTree = "<group>"; };
 		CE0974CC24580EEB000F0504 /* door@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "door@2x.png"; sourceTree = "<group>"; };
 		CE0974CD24580EEB000F0504 /* door.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door.png; sourceTree = "<group>"; };
+		CE0974D1245818D2000F0504 /* sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sign.png; sourceTree = "<group>"; };
+		CE0974D2245818D3000F0504 /* sign@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign@2x.png"; sourceTree = "<group>"; };
+		CE0974D3245818D3000F0504 /* sign@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign@3x.png"; sourceTree = "<group>"; };
 		CE1AFF022457241500784C3C /* UIImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1AFF052457241500784C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE1AFF072457241500784C3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +133,9 @@
 				CE0974CB24580EEB000F0504 /* door@3x.png */,
 				CE0974BD2457D823000F0504 /* background@2x.jpg */,
 				CE0974BE2457D823000F0504 /* background@3x.jpg */,
+				CE0974D1245818D2000F0504 /* sign.png */,
+				CE0974D2245818D3000F0504 /* sign@2x.png */,
+				CE0974D3245818D3000F0504 /* sign@3x.png */,
 				CE1AFF102457241600784C3C /* LaunchScreen.storyboard */,
 				CE1AFF132457241600784C3C /* Info.plist */,
 			);
@@ -192,6 +201,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE0974BC2457CB94000F0504 /* husky@3x.png in Resources */,
+				CE0974D5245818D3000F0504 /* sign@2x.png in Resources */,
+				CE0974D4245818D3000F0504 /* sign.png in Resources */,
 				CE0974BA2457CB94000F0504 /* husky.png in Resources */,
 				CE0974B52457BAA9000F0504 /* buttonstopdown@2x.png in Resources */,
 				CE0974C12457D824000F0504 /* background@3x.jpg in Resources */,
@@ -211,6 +222,7 @@
 				CE0974BB2457CB94000F0504 /* husky@2x.png in Resources */,
 				CE0974C924580E12000F0504 /* buttondown@3x.png in Resources */,
 				CE1AFF0F2457241600784C3C /* Assets.xcassets in Resources */,
+				CE0974D6245818D3000F0504 /* sign@3x.png in Resources */,
 				CEA541DF2457B6DA0059739D /* buttonnormal@2x.png in Resources */,
 				CE1AFF0D2457241500784C3C /* Main.storyboard in Resources */,
 				CE1AFF1C2457242B00784C3C /* oranges@3x.png in Resources */,

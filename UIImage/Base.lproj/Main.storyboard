@@ -125,7 +125,7 @@
                                     <action selector="changePicture:" destination="uuP-H8-WrH" eventType="touchUpInside" id="A5Y-ta-das"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="husky.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kyh-fR-wvA">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kyh-fR-wvA">
                                 <rect key="frame" x="0.0" y="44" width="414" height="718"/>
                             </imageView>
                         </subviews>
@@ -149,7 +149,7 @@
             </objects>
             <point key="canvasLocation" x="1174" y="767"/>
         </scene>
-        <!--BG2-->
+        <!--BG-->
         <scene sceneID="nZC-Ph-YDg">
             <objects>
                 <viewController id="DlS-hf-WWK" sceneMemberID="viewController">
@@ -177,7 +177,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lHs-Jg-PEQ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="BG2" id="afY-0p-43q"/>
+                    <tabBarItem key="tabBarItem" title="BG" id="afY-0p-43q"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L9G-nd-rlZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -189,5 +189,6 @@
         <image name="buttondown.png" width="300" height="51"/>
         <image name="buttonnormal.png" width="300" height="51"/>
         <image name="husky.png" width="300" height="400"/>
+        <image name="sign.png" width="300" height="400"/>
     </resources>
 </document>

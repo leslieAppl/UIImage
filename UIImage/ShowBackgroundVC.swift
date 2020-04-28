@@ -21,7 +21,7 @@ class ShowBackgroundVC: UIViewController {
         if let myPattern = UIImage(named: "oranges") {
             view.backgroundColor = UIColor(patternImage: myPattern)
         }
-        
+//Config Animating Image View
         myImgView.animationImages = [husky!, door!]
         myImgView.animationDuration = 4
         myImgView.animationRepeatCount = 5
