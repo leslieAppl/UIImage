@@ -166,12 +166,37 @@
                                 <state key="normal" image="buttonnormal.png"/>
                                 <state key="highlighted" image="buttondown.png"/>
                             </button>
+                            <visualEffectView opaque="NO" alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dHx-id-Noq">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="OWm-Cb-XuG">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s5O-8f-PkY">
+                                            <rect key="frame" x="0.0" y="0.0" width="174" height="768"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="17U-ka-UdE">
+                                                <rect key="frame" x="0.0" y="0.0" width="174" height="768"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="regular"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="dHx-id-Noq" firstAttribute="trailing" secondItem="lHs-Jg-PEQ" secondAttribute="trailing" id="4xO-vR-04n"/>
+                            <constraint firstAttribute="bottom" secondItem="dHx-id-Noq" secondAttribute="bottom" id="BAc-kj-yUP"/>
                             <constraint firstAttribute="bottom" secondItem="qxl-rL-JNu" secondAttribute="bottom" id="Pqy-JH-lfR"/>
+                            <constraint firstItem="dHx-id-Noq" firstAttribute="leading" secondItem="lHs-Jg-PEQ" secondAttribute="leading" id="e9G-a0-5Tt"/>
                             <constraint firstItem="mqT-vR-dxf" firstAttribute="bottom" secondItem="lHs-Jg-PEQ" secondAttribute="bottom" id="euK-yB-DrM"/>
                             <constraint firstItem="qxl-rL-JNu" firstAttribute="trailing" secondItem="lHs-Jg-PEQ" secondAttribute="trailing" id="fWX-TD-Z3L"/>
+                            <constraint firstItem="dHx-id-Noq" firstAttribute="top" secondItem="xlh-UG-Nnz" secondAttribute="top" id="gn5-ba-XZf"/>
                             <constraint firstItem="qxl-rL-JNu" firstAttribute="leading" secondItem="lHs-Jg-PEQ" secondAttribute="leading" id="hBt-nX-esj"/>
                             <constraint firstItem="mqT-vR-dxf" firstAttribute="centerX" secondItem="xlh-UG-Nnz" secondAttribute="centerX" id="o7t-i0-x11"/>
                             <constraint firstItem="qxl-rL-JNu" firstAttribute="top" secondItem="xlh-UG-Nnz" secondAttribute="top" id="vuQ-f7-IVE"/>
@@ -182,7 +207,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L9G-nd-rlZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1832" y="767"/>
+            <point key="canvasLocation" x="1831.8840579710147" y="766.74107142857144"/>
         </scene>
     </scenes>
     <resources>

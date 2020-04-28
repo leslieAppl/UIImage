@@ -15,3 +15,5 @@
 ## Added changeImage() method
 
 ## Added Animating Image View
+
+## Added Visual Effect to blur the background view
