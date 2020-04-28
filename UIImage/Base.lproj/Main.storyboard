@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sYO-Ek-sce">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--AFill-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIImage" customModuleProvider="target" sceneMemberID="viewController">
@@ -16,10 +16,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="husky.png" translatesAutoresizingMaskIntoConstraints="NO" id="3oj-Uf-fag">
-                                <rect key="frame" x="0.0" y="44" width="414" height="759"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="718"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHZ-LK-a53">
-                                <rect key="frame" x="57" y="811" width="300" height="51"/>
+                            <button opaque="NO" contentMode="scaleAspectFill" verticalHuggingPriority="750" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHZ-LK-a53">
+                                <rect key="frame" x="57" y="762" width="300" height="51"/>
                                 <state key="normal" image="buttonnormal.png"/>
                                 <state key="highlighted" image="buttonstopdown.png"/>
                             </button>
@@ -30,18 +30,150 @@
                             <constraint firstItem="3oj-Uf-fag" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="IGx-Qx-x5V"/>
                             <constraint firstItem="IHZ-LK-a53" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KTn-sh-nct"/>
                             <constraint firstItem="3oj-Uf-fag" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MS9-hW-vhh"/>
-                            <constraint firstItem="IHZ-LK-a53" firstAttribute="top" secondItem="3oj-Uf-fag" secondAttribute="bottom" constant="8" id="nkr-0V-twD"/>
+                            <constraint firstItem="IHZ-LK-a53" firstAttribute="top" secondItem="3oj-Uf-fag" secondAttribute="bottom" id="nkr-0V-twD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3oj-Uf-fag" secondAttribute="trailing" id="ryB-ff-Rna"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="AFill" id="eut-hl-2dG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-178" y="767"/>
+        </scene>
+        <!--AFit-->
+        <scene sceneID="yD6-5J-AIC">
+            <objects>
+                <viewController id="md0-dE-Qzh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Czz-Ul-T4D">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oHv-Gl-XWa">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="husky.png" translatesAutoresizingMaskIntoConstraints="NO" id="3Es-Lw-2Xc">
+                                <rect key="frame" x="0.0" y="44" width="414" height="718"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8u-eO-UY7">
+                                <rect key="frame" x="57" y="762" width="300" height="51"/>
+                                <state key="normal" image="buttonnormal.png"/>
+                                <state key="highlighted" image="buttonstopdown.png"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="R8u-eO-UY7" firstAttribute="bottom" secondItem="5OE-Us-9xv" secondAttribute="bottom" id="44X-ai-6TY"/>
+                            <constraint firstItem="oHv-Gl-XWa" firstAttribute="trailing" secondItem="5OE-Us-9xv" secondAttribute="trailing" id="73Y-6t-pAP"/>
+                            <constraint firstItem="oHv-Gl-XWa" firstAttribute="top" secondItem="Czz-Ul-T4D" secondAttribute="top" id="HOy-L0-M7U"/>
+                            <constraint firstItem="oHv-Gl-XWa" firstAttribute="leading" secondItem="5OE-Us-9xv" secondAttribute="leading" id="RSH-b3-kDM"/>
+                            <constraint firstItem="R8u-eO-UY7" firstAttribute="centerX" secondItem="Czz-Ul-T4D" secondAttribute="centerX" id="UMX-UA-BAg"/>
+                            <constraint firstItem="5OE-Us-9xv" firstAttribute="trailing" secondItem="3Es-Lw-2Xc" secondAttribute="trailing" id="YRg-BK-Vh5"/>
+                            <constraint firstItem="R8u-eO-UY7" firstAttribute="top" secondItem="3Es-Lw-2Xc" secondAttribute="bottom" id="dpE-Q7-nBs"/>
+                            <constraint firstAttribute="bottom" secondItem="oHv-Gl-XWa" secondAttribute="bottom" id="gPF-12-03h"/>
+                            <constraint firstItem="3Es-Lw-2Xc" firstAttribute="leading" secondItem="5OE-Us-9xv" secondAttribute="leading" id="hRM-pD-RGO"/>
+                            <constraint firstItem="3Es-Lw-2Xc" firstAttribute="top" secondItem="5OE-Us-9xv" secondAttribute="top" id="leo-WD-YTj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5OE-Us-9xv"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="AFit" id="ohH-K5-3OO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="myS-q8-jVI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="511.59420289855075" y="766.74107142857144"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="6yB-tT-Y4G">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="sYO-Ek-sce" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="E50-dV-bBj">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="LoA-mL-zBW"/>
+                        <segue destination="md0-dE-Qzh" kind="relationship" relationship="viewControllers" id="pIw-lN-qea"/>
+                        <segue destination="uuP-H8-WrH" kind="relationship" relationship="viewControllers" id="VTW-uy-Yaw"/>
+                        <segue destination="DlS-hf-WWK" kind="relationship" relationship="viewControllers" id="DEF-OQ-eQW"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eyn-tf-8pm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
             <point key="canvasLocation" x="137.68115942028987" y="68.973214285714278"/>
+        </scene>
+        <!--AFIT-->
+        <scene sceneID="rax-A9-ibD">
+            <objects>
+                <viewController id="uuP-H8-WrH" customClass="ShowBackgroundVC" customModule="UIImage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vCA-ZR-jUL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ooL-nz-ooH">
+                                <rect key="frame" x="57" y="762" width="300" height="51"/>
+                                <state key="normal" image="buttonnormal.png"/>
+                                <state key="highlighted" image="buttonstopdown.png"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="husky.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kyh-fR-wvA">
+                                <rect key="frame" x="0.0" y="44" width="414" height="718"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Kyh-fR-wvA" firstAttribute="top" secondItem="jdP-vZ-PUB" secondAttribute="top" id="7r0-tc-nRE"/>
+                            <constraint firstItem="ooL-nz-ooH" firstAttribute="top" secondItem="Kyh-fR-wvA" secondAttribute="bottom" id="90F-TP-aga"/>
+                            <constraint firstItem="ooL-nz-ooH" firstAttribute="centerX" secondItem="vCA-ZR-jUL" secondAttribute="centerX" id="C0O-LR-jA5"/>
+                            <constraint firstItem="ooL-nz-ooH" firstAttribute="bottom" secondItem="jdP-vZ-PUB" secondAttribute="bottom" id="PGz-Hp-8hz"/>
+                            <constraint firstItem="Kyh-fR-wvA" firstAttribute="trailing" secondItem="jdP-vZ-PUB" secondAttribute="trailing" id="eh4-15-fIX"/>
+                            <constraint firstItem="Kyh-fR-wvA" firstAttribute="leading" secondItem="jdP-vZ-PUB" secondAttribute="leading" id="f0g-Rz-peL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jdP-vZ-PUB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="AFIT" id="4ha-Ma-7b1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vum-vd-mvm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1174" y="767"/>
+        </scene>
+        <!--BG2-->
+        <scene sceneID="nZC-Ph-YDg">
+            <objects>
+                <viewController id="DlS-hf-WWK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xlh-UG-Nnz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qxl-rL-JNu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqT-vR-dxf">
+                                <rect key="frame" x="57" y="762" width="300" height="51"/>
+                                <state key="normal" image="buttonnormal.png"/>
+                                <state key="highlighted" image="buttonstopdown.png"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="qxl-rL-JNu" secondAttribute="bottom" id="Pqy-JH-lfR"/>
+                            <constraint firstItem="mqT-vR-dxf" firstAttribute="bottom" secondItem="lHs-Jg-PEQ" secondAttribute="bottom" id="euK-yB-DrM"/>
+                            <constraint firstItem="qxl-rL-JNu" firstAttribute="trailing" secondItem="lHs-Jg-PEQ" secondAttribute="trailing" id="fWX-TD-Z3L"/>
+                            <constraint firstItem="qxl-rL-JNu" firstAttribute="leading" secondItem="lHs-Jg-PEQ" secondAttribute="leading" id="hBt-nX-esj"/>
+                            <constraint firstItem="mqT-vR-dxf" firstAttribute="centerX" secondItem="xlh-UG-Nnz" secondAttribute="centerX" id="o7t-i0-x11"/>
+                            <constraint firstItem="qxl-rL-JNu" firstAttribute="top" secondItem="xlh-UG-Nnz" secondAttribute="top" id="vuQ-f7-IVE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lHs-Jg-PEQ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="BG2" id="afY-0p-43q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L9G-nd-rlZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1832" y="767"/>
         </scene>
     </scenes>
     <resources>
+        <image name="background.jpg" width="263" height="197"/>
         <image name="buttonnormal.png" width="300" height="51"/>
         <image name="buttonstopdown.png" width="300" height="51"/>
         <image name="husky.png" width="300" height="400"/>

@@ -13,6 +13,10 @@
 		CE0974BA2457CB94000F0504 /* husky.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974B72457CB93000F0504 /* husky.png */; };
 		CE0974BB2457CB94000F0504 /* husky@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974B82457CB93000F0504 /* husky@2x.png */; };
 		CE0974BC2457CB94000F0504 /* husky@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974B92457CB94000F0504 /* husky@3x.png */; };
+		CE0974C02457D824000F0504 /* background@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE0974BD2457D823000F0504 /* background@2x.jpg */; };
+		CE0974C12457D824000F0504 /* background@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE0974BE2457D823000F0504 /* background@3x.jpg */; };
+		CE0974C22457D824000F0504 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE0974BF2457D824000F0504 /* background.jpg */; };
+		CE0974C42457DB54000F0504 /* ShowBackgroundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0974C32457DB54000F0504 /* ShowBackgroundVC.swift */; };
 		CE1AFF062457241500784C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFF052457241500784C3C /* AppDelegate.swift */; };
 		CE1AFF082457241500784C3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFF072457241500784C3C /* SceneDelegate.swift */; };
 		CE1AFF0A2457241500784C3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFF092457241500784C3C /* ViewController.swift */; };
@@ -37,6 +41,10 @@
 		CE0974B72457CB93000F0504 /* husky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = husky.png; sourceTree = "<group>"; };
 		CE0974B82457CB93000F0504 /* husky@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "husky@2x.png"; sourceTree = "<group>"; };
 		CE0974B92457CB94000F0504 /* husky@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "husky@3x.png"; sourceTree = "<group>"; };
+		CE0974BD2457D823000F0504 /* background@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background@2x.jpg"; sourceTree = "<group>"; };
+		CE0974BE2457D823000F0504 /* background@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background@3x.jpg"; sourceTree = "<group>"; };
+		CE0974BF2457D824000F0504 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		CE0974C32457DB54000F0504 /* ShowBackgroundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowBackgroundVC.swift; sourceTree = "<group>"; };
 		CE1AFF022457241500784C3C /* UIImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1AFF052457241500784C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE1AFF072457241500784C3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +97,7 @@
 				CE1AFF052457241500784C3C /* AppDelegate.swift */,
 				CE1AFF072457241500784C3C /* SceneDelegate.swift */,
 				CE1AFF092457241500784C3C /* ViewController.swift */,
+				CE0974C32457DB54000F0504 /* ShowBackgroundVC.swift */,
 				CE1AFF0B2457241500784C3C /* Main.storyboard */,
 				CE1AFF0E2457241600784C3C /* Assets.xcassets */,
 				CE1AFF1A2457242B00784C3C /* oranges.png */,
@@ -106,6 +115,9 @@
 				CE0974B72457CB93000F0504 /* husky.png */,
 				CE0974B82457CB93000F0504 /* husky@2x.png */,
 				CE0974B92457CB94000F0504 /* husky@3x.png */,
+				CE0974BF2457D824000F0504 /* background.jpg */,
+				CE0974BD2457D823000F0504 /* background@2x.jpg */,
+				CE0974BE2457D823000F0504 /* background@3x.jpg */,
 				CE1AFF102457241600784C3C /* LaunchScreen.storyboard */,
 				CE1AFF132457241600784C3C /* Info.plist */,
 			);
@@ -173,10 +185,13 @@
 				CE0974BC2457CB94000F0504 /* husky@3x.png in Resources */,
 				CE0974BA2457CB94000F0504 /* husky.png in Resources */,
 				CE0974B52457BAA9000F0504 /* buttonstopdown@2x.png in Resources */,
+				CE0974C12457D824000F0504 /* background@3x.jpg in Resources */,
 				CEA541DE2457B6DA0059739D /* buttonnormal.png in Resources */,
+				CE0974C02457D824000F0504 /* background@2x.jpg in Resources */,
 				CEA541E32457B85B0059739D /* buttondown@2x.png in Resources */,
 				CE0974B62457BAA9000F0504 /* buttonstopdown@3x.png in Resources */,
 				CE0974B42457BAA9000F0504 /* buttonstopdown.png in Resources */,
+				CE0974C22457D824000F0504 /* background.jpg in Resources */,
 				CE1AFF1E2457242B00784C3C /* oranges@2x.png in Resources */,
 				CE1AFF122457241600784C3C /* LaunchScreen.storyboard in Resources */,
 				CE1AFF1D2457242B00784C3C /* oranges.png in Resources */,
@@ -201,6 +216,7 @@
 				CE1AFF0A2457241500784C3C /* ViewController.swift in Sources */,
 				CE1AFF062457241500784C3C /* AppDelegate.swift in Sources */,
 				CE1AFF082457241500784C3C /* SceneDelegate.swift in Sources */,
+				CE0974C42457DB54000F0504 /* ShowBackgroundVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,3 +10,4 @@
 
 ## UIImageView: Content Hugging priority and Content Compression Resistance priority
 
+## UIImageView: Content Mode
