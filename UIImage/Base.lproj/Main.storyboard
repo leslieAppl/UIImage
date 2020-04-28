@@ -50,7 +50,7 @@
         <!--AFit-->
         <scene sceneID="yD6-5J-AIC">
             <objects>
-                <viewController id="md0-dE-Qzh" sceneMemberID="viewController">
+                <viewController id="md0-dE-Qzh" customClass="VisualEffectVC" customModule="UIImage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Czz-Ul-T4D">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,6 +65,9 @@
                                 <rect key="frame" x="57" y="762" width="300" height="51"/>
                                 <state key="normal" image="buttonnormal.png"/>
                                 <state key="highlighted" image="buttondown.png"/>
+                                <connections>
+                                    <action selector="changeVisualEffectBtnPressed:" destination="md0-dE-Qzh" eventType="touchUpInside" id="VfU-wv-oGW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -83,6 +86,9 @@
                         <viewLayoutGuide key="safeArea" id="5OE-Us-9xv"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="AFit" id="ohH-K5-3OO"/>
+                    <connections>
+                        <outlet property="bg" destination="oHv-Gl-XWa" id="zP7-eN-v9A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="myS-q8-jVI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

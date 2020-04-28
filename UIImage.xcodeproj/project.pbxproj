@@ -29,6 +29,7 @@
 		CE0974DA24581C36000F0504 /* buttonstopnormal.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974D724581C36000F0504 /* buttonstopnormal.png */; };
 		CE0974DB24581C36000F0504 /* buttonstopnormal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974D824581C36000F0504 /* buttonstopnormal@3x.png */; };
 		CE0974DC24581C36000F0504 /* buttonstopnormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974D924581C36000F0504 /* buttonstopnormal@2x.png */; };
+		CE0974DE245836D1000F0504 /* VisualEffectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0974DD245836D1000F0504 /* VisualEffectVC.swift */; };
 		CE1AFF062457241500784C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFF052457241500784C3C /* AppDelegate.swift */; };
 		CE1AFF082457241500784C3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFF072457241500784C3C /* SceneDelegate.swift */; };
 		CE1AFF0A2457241500784C3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFF092457241500784C3C /* ViewController.swift */; };
@@ -66,6 +67,7 @@
 		CE0974D724581C36000F0504 /* buttonstopnormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonstopnormal.png; sourceTree = "<group>"; };
 		CE0974D824581C36000F0504 /* buttonstopnormal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonstopnormal@3x.png"; sourceTree = "<group>"; };
 		CE0974D924581C36000F0504 /* buttonstopnormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonstopnormal@2x.png"; sourceTree = "<group>"; };
+		CE0974DD245836D1000F0504 /* VisualEffectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectVC.swift; sourceTree = "<group>"; };
 		CE1AFF022457241500784C3C /* UIImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1AFF052457241500784C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE1AFF072457241500784C3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE0974DF245836E9000F0504 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE1AFF092457241500784C3C /* ViewController.swift */,
+				CE0974C32457DB54000F0504 /* ShowBackgroundVC.swift */,
+				CE0974DD245836D1000F0504 /* VisualEffectVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE0974E0245836FD000F0504 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE0974E124583703000F0504 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CE1AFEF92457241500784C3C = {
 			isa = PBXGroup;
 			children = (
@@ -112,10 +138,11 @@
 		CE1AFF042457241500784C3C /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
+				CE0974E124583703000F0504 /* Model */,
+				CE0974E0245836FD000F0504 /* View */,
+				CE0974DF245836E9000F0504 /* Controller */,
 				CE1AFF052457241500784C3C /* AppDelegate.swift */,
 				CE1AFF072457241500784C3C /* SceneDelegate.swift */,
-				CE1AFF092457241500784C3C /* ViewController.swift */,
-				CE0974C32457DB54000F0504 /* ShowBackgroundVC.swift */,
 				CE1AFF0B2457241500784C3C /* Main.storyboard */,
 				CE1AFF0E2457241600784C3C /* Assets.xcassets */,
 				CE1AFF1A2457242B00784C3C /* oranges.png */,
@@ -250,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE1AFF0A2457241500784C3C /* ViewController.swift in Sources */,
+				CE0974DE245836D1000F0504 /* VisualEffectVC.swift in Sources */,
 				CE1AFF062457241500784C3C /* AppDelegate.swift in Sources */,
 				CE1AFF082457241500784C3C /* SceneDelegate.swift in Sources */,
 				CE0974C42457DB54000F0504 /* ShowBackgroundVC.swift in Sources */,

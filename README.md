@@ -17,3 +17,7 @@
 ## Added Animating Image View
 
 ## Added Visual Effect to blur the background view
+
+## Created the Visual Effect View from code
+
+## Adding a Visual Effect View over the background
