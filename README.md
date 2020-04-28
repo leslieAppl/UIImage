@@ -7,3 +7,6 @@
         }
 
 ## Added Highlighted Button Image
+
+## UIImageView: Content Hugging priority and Content Compression Resistance priority
+

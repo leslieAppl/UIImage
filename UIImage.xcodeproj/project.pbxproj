@@ -10,6 +10,9 @@
 		CE0974B42457BAA9000F0504 /* buttonstopdown.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974B12457BAA9000F0504 /* buttonstopdown.png */; };
 		CE0974B52457BAA9000F0504 /* buttonstopdown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974B22457BAA9000F0504 /* buttonstopdown@2x.png */; };
 		CE0974B62457BAA9000F0504 /* buttonstopdown@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974B32457BAA9000F0504 /* buttonstopdown@3x.png */; };
+		CE0974BA2457CB94000F0504 /* husky.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974B72457CB93000F0504 /* husky.png */; };
+		CE0974BB2457CB94000F0504 /* husky@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974B82457CB93000F0504 /* husky@2x.png */; };
+		CE0974BC2457CB94000F0504 /* husky@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974B92457CB94000F0504 /* husky@3x.png */; };
 		CE1AFF062457241500784C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFF052457241500784C3C /* AppDelegate.swift */; };
 		CE1AFF082457241500784C3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFF072457241500784C3C /* SceneDelegate.swift */; };
 		CE1AFF0A2457241500784C3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFF092457241500784C3C /* ViewController.swift */; };
@@ -31,6 +34,9 @@
 		CE0974B12457BAA9000F0504 /* buttonstopdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonstopdown.png; sourceTree = "<group>"; };
 		CE0974B22457BAA9000F0504 /* buttonstopdown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonstopdown@2x.png"; sourceTree = "<group>"; };
 		CE0974B32457BAA9000F0504 /* buttonstopdown@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonstopdown@3x.png"; sourceTree = "<group>"; };
+		CE0974B72457CB93000F0504 /* husky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = husky.png; sourceTree = "<group>"; };
+		CE0974B82457CB93000F0504 /* husky@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "husky@2x.png"; sourceTree = "<group>"; };
+		CE0974B92457CB94000F0504 /* husky@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "husky@3x.png"; sourceTree = "<group>"; };
 		CE1AFF022457241500784C3C /* UIImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1AFF052457241500784C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE1AFF072457241500784C3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +103,9 @@
 				CE0974B12457BAA9000F0504 /* buttonstopdown.png */,
 				CE0974B22457BAA9000F0504 /* buttonstopdown@2x.png */,
 				CE0974B32457BAA9000F0504 /* buttonstopdown@3x.png */,
+				CE0974B72457CB93000F0504 /* husky.png */,
+				CE0974B82457CB93000F0504 /* husky@2x.png */,
+				CE0974B92457CB94000F0504 /* husky@3x.png */,
 				CE1AFF102457241600784C3C /* LaunchScreen.storyboard */,
 				CE1AFF132457241600784C3C /* Info.plist */,
 			);
@@ -161,6 +170,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0974BC2457CB94000F0504 /* husky@3x.png in Resources */,
+				CE0974BA2457CB94000F0504 /* husky.png in Resources */,
 				CE0974B52457BAA9000F0504 /* buttonstopdown@2x.png in Resources */,
 				CEA541DE2457B6DA0059739D /* buttonnormal.png in Resources */,
 				CEA541E32457B85B0059739D /* buttondown@2x.png in Resources */,
@@ -170,6 +181,7 @@
 				CE1AFF122457241600784C3C /* LaunchScreen.storyboard in Resources */,
 				CE1AFF1D2457242B00784C3C /* oranges.png in Resources */,
 				CEA541DD2457B6DA0059739D /* buttonnormal@3x.png in Resources */,
+				CE0974BB2457CB94000F0504 /* husky@2x.png in Resources */,
 				CE1AFF0F2457241600784C3C /* Assets.xcassets in Resources */,
 				CEA541E52457B8F50059739D /* buttondown@3x.png in Resources */,
 				CEA541DF2457B6DA0059739D /* buttonnormal@2x.png in Resources */,
