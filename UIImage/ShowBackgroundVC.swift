@@ -24,11 +24,16 @@ class ShowBackgroundVC: UIViewController {
         
         myImgView.animationImages = [husky!, door!]
         myImgView.animationDuration = 4
+        myImgView.animationRepeatCount = 5
     }
     
     @IBAction func changePicture(_ sender: UIButton) {
 //Animating images inside an Image View
-        myImgView.startAnimating()
+        if myImgView.isAnimating {
+            myImgView.stopAnimating()
+        } else {
+            myImgView.startAnimating()
+        }
     }
     
     /*
