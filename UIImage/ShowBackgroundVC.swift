@@ -13,7 +13,13 @@ class ShowBackgroundVC: UIViewController {
     let husky = UIImage(named: "husky")
     let door = UIImage(named: "door")
     
+    let btnNormal = UIImage(named: "buttonnormal")
+    let btnDown = UIImage(named: "buttondown")
+    let btnStopNormal = UIImage(named: "buttonstopnormal")
+    let btnStopdown = UIImage(named: "buttonstopdown")
+    
     @IBOutlet weak var myImgView: UIImageView!
+    @IBOutlet weak var changePirctureBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,8 +36,12 @@ class ShowBackgroundVC: UIViewController {
     @IBAction func changePicture(_ sender: UIButton) {
 //Animating images inside an Image View
         if myImgView.isAnimating {
+            changePirctureBtn.setImage(btnNormal, for: .normal)
+            changePirctureBtn.setImage(btnDown, for: .highlighted)
             myImgView.stopAnimating()
         } else {
+            changePirctureBtn.setImage(btnStopNormal, for: .normal)
+            changePirctureBtn.setImage(btnStopdown, for: .highlighted)
             myImgView.startAnimating()
         }
     }

@@ -142,6 +142,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="AFIT" id="4ha-Ma-7b1"/>
                     <connections>
+                        <outlet property="changePirctureBtn" destination="ooL-nz-ooH" id="UwW-h6-pLS"/>
                         <outlet property="myImgView" destination="Kyh-fR-wvA" id="SR0-XW-kqK"/>
                     </connections>
                 </viewController>
