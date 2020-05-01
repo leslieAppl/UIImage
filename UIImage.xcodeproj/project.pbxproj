@@ -7,67 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE0974B42457BAA9000F0504 /* buttonstopdown.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974B12457BAA9000F0504 /* buttonstopdown.png */; };
-		CE0974B52457BAA9000F0504 /* buttonstopdown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974B22457BAA9000F0504 /* buttonstopdown@2x.png */; };
-		CE0974B62457BAA9000F0504 /* buttonstopdown@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974B32457BAA9000F0504 /* buttonstopdown@3x.png */; };
-		CE0974BA2457CB94000F0504 /* husky.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974B72457CB93000F0504 /* husky.png */; };
-		CE0974BB2457CB94000F0504 /* husky@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974B82457CB93000F0504 /* husky@2x.png */; };
-		CE0974BC2457CB94000F0504 /* husky@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974B92457CB94000F0504 /* husky@3x.png */; };
-		CE0974C02457D824000F0504 /* background@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE0974BD2457D823000F0504 /* background@2x.jpg */; };
-		CE0974C12457D824000F0504 /* background@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE0974BE2457D823000F0504 /* background@3x.jpg */; };
-		CE0974C22457D824000F0504 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE0974BF2457D824000F0504 /* background.jpg */; };
 		CE0974C42457DB54000F0504 /* ShowBackgroundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0974C32457DB54000F0504 /* ShowBackgroundVC.swift */; };
-		CE0974C824580E12000F0504 /* buttondown.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974C524580E12000F0504 /* buttondown.png */; };
-		CE0974C924580E12000F0504 /* buttondown@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974C624580E12000F0504 /* buttondown@3x.png */; };
-		CE0974CA24580E12000F0504 /* buttondown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974C724580E12000F0504 /* buttondown@2x.png */; };
-		CE0974CE24580EEB000F0504 /* door@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974CB24580EEB000F0504 /* door@3x.png */; };
-		CE0974CF24580EEB000F0504 /* door@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974CC24580EEB000F0504 /* door@2x.png */; };
-		CE0974D024580EEB000F0504 /* door.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974CD24580EEB000F0504 /* door.png */; };
-		CE0974D4245818D3000F0504 /* sign.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974D1245818D2000F0504 /* sign.png */; };
-		CE0974D5245818D3000F0504 /* sign@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974D2245818D3000F0504 /* sign@2x.png */; };
-		CE0974D6245818D3000F0504 /* sign@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974D3245818D3000F0504 /* sign@3x.png */; };
-		CE0974DA24581C36000F0504 /* buttonstopnormal.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974D724581C36000F0504 /* buttonstopnormal.png */; };
-		CE0974DB24581C36000F0504 /* buttonstopnormal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974D824581C36000F0504 /* buttonstopnormal@3x.png */; };
-		CE0974DC24581C36000F0504 /* buttonstopnormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0974D924581C36000F0504 /* buttonstopnormal@2x.png */; };
 		CE0974DE245836D1000F0504 /* VisualEffectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0974DD245836D1000F0504 /* VisualEffectVC.swift */; };
+		CE0974E3245BCFEC000F0504 /* BGVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0974E2245BCFEC000F0504 /* BGVC.swift */; };
 		CE1AFF062457241500784C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFF052457241500784C3C /* AppDelegate.swift */; };
 		CE1AFF082457241500784C3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFF072457241500784C3C /* SceneDelegate.swift */; };
 		CE1AFF0A2457241500784C3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AFF092457241500784C3C /* ViewController.swift */; };
 		CE1AFF0D2457241500784C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1AFF0B2457241500784C3C /* Main.storyboard */; };
 		CE1AFF0F2457241600784C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1AFF0E2457241600784C3C /* Assets.xcassets */; };
 		CE1AFF122457241600784C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1AFF102457241600784C3C /* LaunchScreen.storyboard */; };
-		CE1AFF1C2457242B00784C3C /* oranges@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1AFF192457242B00784C3C /* oranges@3x.png */; };
-		CE1AFF1D2457242B00784C3C /* oranges.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1AFF1A2457242B00784C3C /* oranges.png */; };
-		CE1AFF1E2457242B00784C3C /* oranges@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1AFF1B2457242B00784C3C /* oranges@2x.png */; };
-		CEA541DD2457B6DA0059739D /* buttonnormal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA541DA2457B6D90059739D /* buttonnormal@3x.png */; };
-		CEA541DE2457B6DA0059739D /* buttonnormal.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA541DB2457B6D90059739D /* buttonnormal.png */; };
-		CEA541DF2457B6DA0059739D /* buttonnormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA541DC2457B6D90059739D /* buttonnormal@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CE0974B12457BAA9000F0504 /* buttonstopdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonstopdown.png; sourceTree = "<group>"; };
-		CE0974B22457BAA9000F0504 /* buttonstopdown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonstopdown@2x.png"; sourceTree = "<group>"; };
-		CE0974B32457BAA9000F0504 /* buttonstopdown@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonstopdown@3x.png"; sourceTree = "<group>"; };
-		CE0974B72457CB93000F0504 /* husky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = husky.png; sourceTree = "<group>"; };
-		CE0974B82457CB93000F0504 /* husky@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "husky@2x.png"; sourceTree = "<group>"; };
-		CE0974B92457CB94000F0504 /* husky@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "husky@3x.png"; sourceTree = "<group>"; };
-		CE0974BD2457D823000F0504 /* background@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background@2x.jpg"; sourceTree = "<group>"; };
-		CE0974BE2457D823000F0504 /* background@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background@3x.jpg"; sourceTree = "<group>"; };
-		CE0974BF2457D824000F0504 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		CE0974C32457DB54000F0504 /* ShowBackgroundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowBackgroundVC.swift; sourceTree = "<group>"; };
-		CE0974C524580E12000F0504 /* buttondown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttondown.png; sourceTree = "<group>"; };
-		CE0974C624580E12000F0504 /* buttondown@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttondown@3x.png"; sourceTree = "<group>"; };
-		CE0974C724580E12000F0504 /* buttondown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttondown@2x.png"; sourceTree = "<group>"; };
-		CE0974CB24580EEB000F0504 /* door@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "door@3x.png"; sourceTree = "<group>"; };
-		CE0974CC24580EEB000F0504 /* door@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "door@2x.png"; sourceTree = "<group>"; };
-		CE0974CD24580EEB000F0504 /* door.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door.png; sourceTree = "<group>"; };
-		CE0974D1245818D2000F0504 /* sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sign.png; sourceTree = "<group>"; };
-		CE0974D2245818D3000F0504 /* sign@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign@2x.png"; sourceTree = "<group>"; };
-		CE0974D3245818D3000F0504 /* sign@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign@3x.png"; sourceTree = "<group>"; };
-		CE0974D724581C36000F0504 /* buttonstopnormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonstopnormal.png; sourceTree = "<group>"; };
-		CE0974D824581C36000F0504 /* buttonstopnormal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonstopnormal@3x.png"; sourceTree = "<group>"; };
-		CE0974D924581C36000F0504 /* buttonstopnormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonstopnormal@2x.png"; sourceTree = "<group>"; };
 		CE0974DD245836D1000F0504 /* VisualEffectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectVC.swift; sourceTree = "<group>"; };
+		CE0974E2245BCFEC000F0504 /* BGVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGVC.swift; sourceTree = "<group>"; };
 		CE1AFF022457241500784C3C /* UIImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1AFF052457241500784C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE1AFF072457241500784C3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,12 +30,6 @@
 		CE1AFF0E2457241600784C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE1AFF112457241600784C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE1AFF132457241600784C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE1AFF192457242B00784C3C /* oranges@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oranges@3x.png"; sourceTree = "<group>"; };
-		CE1AFF1A2457242B00784C3C /* oranges.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oranges.png; sourceTree = "<group>"; };
-		CE1AFF1B2457242B00784C3C /* oranges@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oranges@2x.png"; sourceTree = "<group>"; };
-		CEA541DA2457B6D90059739D /* buttonnormal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonnormal@3x.png"; sourceTree = "<group>"; };
-		CEA541DB2457B6D90059739D /* buttonnormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonnormal.png; sourceTree = "<group>"; };
-		CEA541DC2457B6D90059739D /* buttonnormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonnormal@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +46,10 @@
 		CE0974DF245836E9000F0504 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CE0974E2245BCFEC000F0504 /* BGVC.swift */,
+				CE0974DD245836D1000F0504 /* VisualEffectVC.swift */,
 				CE1AFF092457241500784C3C /* ViewController.swift */,
 				CE0974C32457DB54000F0504 /* ShowBackgroundVC.swift */,
-				CE0974DD245836D1000F0504 /* VisualEffectVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -145,33 +94,6 @@
 				CE1AFF072457241500784C3C /* SceneDelegate.swift */,
 				CE1AFF0B2457241500784C3C /* Main.storyboard */,
 				CE1AFF0E2457241600784C3C /* Assets.xcassets */,
-				CE1AFF1A2457242B00784C3C /* oranges.png */,
-				CE1AFF1B2457242B00784C3C /* oranges@2x.png */,
-				CE1AFF192457242B00784C3C /* oranges@3x.png */,
-				CEA541DB2457B6D90059739D /* buttonnormal.png */,
-				CEA541DC2457B6D90059739D /* buttonnormal@2x.png */,
-				CEA541DA2457B6D90059739D /* buttonnormal@3x.png */,
-				CE0974C524580E12000F0504 /* buttondown.png */,
-				CE0974C724580E12000F0504 /* buttondown@2x.png */,
-				CE0974C624580E12000F0504 /* buttondown@3x.png */,
-				CE0974D724581C36000F0504 /* buttonstopnormal.png */,
-				CE0974D924581C36000F0504 /* buttonstopnormal@2x.png */,
-				CE0974D824581C36000F0504 /* buttonstopnormal@3x.png */,
-				CE0974B12457BAA9000F0504 /* buttonstopdown.png */,
-				CE0974B22457BAA9000F0504 /* buttonstopdown@2x.png */,
-				CE0974B32457BAA9000F0504 /* buttonstopdown@3x.png */,
-				CE0974B72457CB93000F0504 /* husky.png */,
-				CE0974B82457CB93000F0504 /* husky@2x.png */,
-				CE0974B92457CB94000F0504 /* husky@3x.png */,
-				CE0974BF2457D824000F0504 /* background.jpg */,
-				CE0974CD24580EEB000F0504 /* door.png */,
-				CE0974CC24580EEB000F0504 /* door@2x.png */,
-				CE0974CB24580EEB000F0504 /* door@3x.png */,
-				CE0974BD2457D823000F0504 /* background@2x.jpg */,
-				CE0974BE2457D823000F0504 /* background@3x.jpg */,
-				CE0974D1245818D2000F0504 /* sign.png */,
-				CE0974D2245818D3000F0504 /* sign@2x.png */,
-				CE0974D3245818D3000F0504 /* sign@3x.png */,
 				CE1AFF102457241600784C3C /* LaunchScreen.storyboard */,
 				CE1AFF132457241600784C3C /* Info.plist */,
 			);
@@ -236,36 +158,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE0974BC2457CB94000F0504 /* husky@3x.png in Resources */,
-				CE0974D5245818D3000F0504 /* sign@2x.png in Resources */,
-				CE0974D4245818D3000F0504 /* sign.png in Resources */,
-				CE0974BA2457CB94000F0504 /* husky.png in Resources */,
-				CE0974B52457BAA9000F0504 /* buttonstopdown@2x.png in Resources */,
-				CE0974DC24581C36000F0504 /* buttonstopnormal@2x.png in Resources */,
-				CE0974C12457D824000F0504 /* background@3x.jpg in Resources */,
-				CEA541DE2457B6DA0059739D /* buttonnormal.png in Resources */,
-				CE0974C02457D824000F0504 /* background@2x.jpg in Resources */,
-				CE0974B62457BAA9000F0504 /* buttonstopdown@3x.png in Resources */,
-				CE0974CA24580E12000F0504 /* buttondown@2x.png in Resources */,
-				CE0974B42457BAA9000F0504 /* buttonstopdown.png in Resources */,
-				CE0974C824580E12000F0504 /* buttondown.png in Resources */,
-				CE0974C22457D824000F0504 /* background.jpg in Resources */,
-				CE0974CE24580EEB000F0504 /* door@3x.png in Resources */,
-				CE1AFF1E2457242B00784C3C /* oranges@2x.png in Resources */,
-				CE0974CF24580EEB000F0504 /* door@2x.png in Resources */,
 				CE1AFF122457241600784C3C /* LaunchScreen.storyboard in Resources */,
-				CE1AFF1D2457242B00784C3C /* oranges.png in Resources */,
-				CEA541DD2457B6DA0059739D /* buttonnormal@3x.png in Resources */,
-				CE0974BB2457CB94000F0504 /* husky@2x.png in Resources */,
-				CE0974C924580E12000F0504 /* buttondown@3x.png in Resources */,
 				CE1AFF0F2457241600784C3C /* Assets.xcassets in Resources */,
-				CE0974D6245818D3000F0504 /* sign@3x.png in Resources */,
-				CEA541DF2457B6DA0059739D /* buttonnormal@2x.png in Resources */,
 				CE1AFF0D2457241500784C3C /* Main.storyboard in Resources */,
-				CE1AFF1C2457242B00784C3C /* oranges@3x.png in Resources */,
-				CE0974DB24581C36000F0504 /* buttonstopnormal@3x.png in Resources */,
-				CE0974DA24581C36000F0504 /* buttonstopnormal.png in Resources */,
-				CE0974D024580EEB000F0504 /* door.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE1AFF0A2457241500784C3C /* ViewController.swift in Sources */,
+				CE0974E3245BCFEC000F0504 /* BGVC.swift in Sources */,
 				CE0974DE245836D1000F0504 /* VisualEffectVC.swift in Sources */,
 				CE1AFF062457241500784C3C /* AppDelegate.swift in Sources */,
 				CE1AFF082457241500784C3C /* SceneDelegate.swift in Sources */,

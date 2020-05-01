@@ -15,14 +15,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="husky.png" translatesAutoresizingMaskIntoConstraints="NO" id="GEr-xW-lRO">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="GEr-xW-lRO">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="GEr-xW-lRO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ELV-pg-rY9"/>
+                            <constraint firstItem="GEr-xW-lRO" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="H6D-NF-ebC"/>
                             <constraint firstItem="GEr-xW-lRO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HQn-Xk-xMa"/>
+                            <constraint firstItem="GEr-xW-lRO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ckE-Q3-jGR"/>
+                            <constraint firstItem="GEr-xW-lRO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qSb-Lr-4FF"/>
+                            <constraint firstItem="GEr-xW-lRO" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="rJV-9N-p6p"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GEr-xW-lRO" secondAttribute="bottom" id="rQa-Cp-fwj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GEr-xW-lRO" secondAttribute="trailing" id="uT3-US-Wnp"/>
                         </constraints>
@@ -35,6 +39,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="husky.png" width="300" height="400"/>
+        <image name="background" width="263" height="197"/>
     </resources>
 </document>
