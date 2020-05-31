@@ -38,7 +38,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="AFill" id="eut-hl-2dG"/>
+                    <tabBarItem key="tabBarItem" title="AFill" image="square.and.pencil" catalog="system" id="eut-hl-2dG"/>
                     <connections>
                         <outlet property="myImgView" destination="3oj-Uf-fag" id="Oao-ZD-mta"/>
                     </connections>
@@ -85,7 +85,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5OE-Us-9xv"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="AFit" id="ohH-K5-3OO"/>
+                    <tabBarItem key="tabBarItem" title="AFit" image="pencil.circle.fill" catalog="system" id="ohH-K5-3OO"/>
                     <connections>
                         <outlet property="bg" destination="oHv-Gl-XWa" id="zP7-eN-v9A"/>
                     </connections>
@@ -103,6 +103,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.015686274510000001" green="0.6705882353" blue="0.92449144260000005" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="DlS-hf-WWK" kind="relationship" relationship="viewControllers" id="xDb-xW-ByN"/>
@@ -146,7 +147,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jdP-vZ-PUB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="AFIT" id="4ha-Ma-7b1"/>
+                    <tabBarItem key="tabBarItem" title="AFIT" image="pencil.slash" catalog="system" id="4ha-Ma-7b1"/>
                     <connections>
                         <outlet property="changePirctureBtn" destination="ooL-nz-ooH" id="UwW-h6-pLS"/>
                         <outlet property="myImgView" destination="Kyh-fR-wvA" id="SR0-XW-kqK"/>
@@ -199,7 +200,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lHs-Jg-PEQ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="BG" id="afY-0p-43q"/>
+                    <tabBarItem key="tabBarItem" title="BG" image="pencil.circle" catalog="system" id="afY-0p-43q"/>
                     <connections>
                         <outlet property="visualEffect" destination="dHx-id-Noq" id="3j7-cR-52b"/>
                     </connections>
@@ -214,6 +215,10 @@
         <image name="buttondown.png" width="300" height="51"/>
         <image name="buttonnormal" width="300" height="51"/>
         <image name="husky" width="300" height="400"/>
+        <image name="pencil.circle" catalog="system" width="128" height="121"/>
+        <image name="pencil.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="pencil.slash" catalog="system" width="128" height="113"/>
         <image name="sign" width="300" height="400"/>
+        <image name="square.and.pencil" catalog="system" width="128" height="118"/>
     </resources>
 </document>

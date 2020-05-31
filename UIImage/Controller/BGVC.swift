@@ -14,7 +14,6 @@ class BGVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
     }
     
@@ -24,6 +23,5 @@ class BGVC: UIViewController {
         } else {
             visualEffect.alpha = 0.5
         }
-    }
-    
+    }  
 }
